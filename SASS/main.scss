@@ -13,10 +13,16 @@
 
 
 //components
-
+@import "components/title";
+@import "components/_button";
+@import "components/radio";
 
 
 //pages
+@import "pages/signup";
+@import "pages/exam";
+@import "pages/result";
+
 
 
 //themes

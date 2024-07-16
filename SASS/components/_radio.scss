@@ -1,0 +1,11 @@
+.form-check-input[type=radio] {
+    border-radius: 36% !important;
+}
+
+
+.form-check-input:checked {
+    background-color: $primary !important;
+    border-color: $primary !important;
+
+}
+

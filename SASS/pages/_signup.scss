@@ -1,0 +1,36 @@
+body {
+  background: $light-gray;
+}
+
+.form-design {
+  div {
+    padding: 0px 5px 15px;
+  }
+}
+
+.main-form {
+  // background: #f9f9f9;
+  border-radius: 12px;
+  padding: 17px;
+}
+
+.form-struc {
+  background-color: white;
+  border-radius: 12px;
+  margin: 35px;
+}
+
+
+.form-margin {
+  margin-top: 3%;
+}
+
+.dont {
+  text-align: center;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+
+}

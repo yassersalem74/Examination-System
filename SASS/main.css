@@ -1,1 +1,217 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  background-color: #f9f9f9;
+}
+
+.title {
+  color: #6c63ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.mark-title {
+  font-size: 25px;
+}
+
+.btn-custom {
+  background: #6c63ff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 6px 22px;
+  color: white;
+}
+.btn-custom:hover {
+  color: #6c63ff;
+  background-color: white;
+  outline: 1px solid #6c63ff;
+  transition: 0.3s;
+}
+
+.form-check-input[type=radio] {
+  border-radius: 36% !important;
+}
+
+.form-check-input:checked {
+  background-color: #6c63ff !important;
+  border-color: #6c63ff !important;
+}
+
+body {
+  background: #f9f9f9;
+}
+
+.form-design div {
+  padding: 0px 5px 15px;
+}
+
+.main-form {
+  border-radius: 12px;
+  padding: 17px;
+}
+
+.form-struc {
+  background-color: white;
+  border-radius: 12px;
+  margin: 35px;
+}
+
+.form-margin {
+  margin-top: 3%;
+}
+
+.dont {
+  text-align: center;
+}
+
+a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+.card-body {
+  overflow-x: scroll !important;
+}
+.card-body #q-text {
+  color: #6c63ff;
+  font-size: 22px;
+  font-weight: 700;
+}
+.card-body .all-answers {
+  background-color: #f9f9f9;
+  width: 100%;
+  padding: 12px 32px;
+  border-radius: 6px;
+}
+.card-body .checked-answer {
+  background: blue;
+}
+
+.marked-table {
+  height: 89%;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pag-btn {
+  background-color: #6c63ff !important;
+  color: white !important;
+  width: 97px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.pag-btn:hover {
+  background-color: white;
+  color: #6c63ff;
+  outline: 2px solid #6c63ff;
+  transition: 0.3s;
+}
+
+.pag-num {
+  width: 70px;
+  border-radius: 6px;
+  background-color: #6c63ff;
+}
+.pag-num:hover {
+  background-color: #6c63ff;
+  color: white;
+  outline: none;
+}
+
+.prev {
+  background-color: white !important;
+  color: #6c63ff !important;
+  outline: 2px solid #6c63ff !important;
+  cursor: pointer !important;
+}
+.prev:hover {
+  background-color: #6c63ff !important;
+  color: white !important;
+}
+
+.none {
+  display: none;
+}
+
+.form-check-label {
+  width: 100% !important;
+  cursor: pointer !important;
+}
+
+#mark-question {
+  color: #6c63ff;
+  font-size: 31px;
+  cursor: pointer;
+}
+#mark-question:hover {
+  color: #4942c6;
+  transition: 0.3s;
+}
+
+.marked-ul {
+  background: #6c63ff;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  width: 100%;
+}
+.marked-ul li a {
+  color: white !important;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid white;
+  padding: 5px;
+}
+.marked-ul li a:hover {
+  color: black !important;
+  transition: 0.3s;
+}
+
+.result-img {
+  width: 43%;
+  height: auto;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.res-text {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 69px 0px 0px;
+  color: #6c63ff;
+}
+
+.score-text {
+  padding-top: 0;
+}
+
+.text-result {
+  color: red;
+  font-size: 22px;
+}
+
+.progress-bar {
+  background-color: #6c63ff !important;
+}
+
+.failed-res, .success-res {
+  display: none;
+}/*# sourceMappingURL=main.css.map */

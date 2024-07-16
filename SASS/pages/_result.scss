@@ -1,0 +1,42 @@
+
+.result-img{
+    width: 43%;
+    height: auto;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+.res-text{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 69px 0px 0px;
+    color: $primary;
+}
+.score-text{
+    padding-top: 0;
+}
+
+.text-result{
+    color: red;
+    font-size: 22px;
+}
+
+.progress-bar{
+    background-color: $primary!important;
+}
+
+.failed-res , .success-res{
+    display: none;
+}

@@ -1,0 +1,14 @@
+.btn-custom{
+    background: $primary;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px 22px;
+    color: white;
+    &:hover{
+        color: $primary;
+        background-color: white;
+        outline: 1px solid $primary;
+        transition: 0.3s;
+    }
+}
