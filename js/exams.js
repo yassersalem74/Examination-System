@@ -248,7 +248,7 @@ function startTimer() {
     timeBar.style.width = ((max - timer) / max) * 100 + "%";
     if (timer <= 0) {
       clearInterval(counter);
-      location.replace("login.html");
+      location.replace("result.html");
     } else {
       timer--;
     }
