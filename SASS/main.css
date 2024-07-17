@@ -214,4 +214,15 @@ a {
 
 .failed-res, .success-res {
   display: none;
+}
+
+.failed-img {
+  display: flex;
+}
+
+.time-out {
+  padding-top: 41px;
+  color: red;
+  font-size: 35px;
+  font-weight: 800;
 }/*# sourceMappingURL=main.css.map */
